@@ -43,7 +43,7 @@ this is a block comment
 # res = a + b
 # print("Result:", res, "Type:", type(res))
 
-sample_str = "this is a string"
+# sample_str = "this is a string"
 # print(sample_str, type(sample_str))
 # print(dir(sample_str))
 
@@ -89,4 +89,10 @@ sample_str = "this is a string"
 # print(a // b) # Integer division
 # print(a ** b) # exponentiation
 
-# 1234 = 10 
+# 1234 = 10
+
+sample_str = "this is a string"
+sample_str[0] = 'T'
+# TypeError: 'str' object does not support item assignment
+
+print(sample_str)
